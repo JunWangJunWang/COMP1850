@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css5.css"> <!---css?--->
+	<!---link rel="icon" href="school.ico" type="image/x-icon"--->
+	<link rel="icon" href="jun.ico" type="image/x-icon">
+	<style>
+	fieldset{width:400px;
+		border:0px ridge;
+		padding:10px;
+		margin-bottom:10px;
+		margin-top:10px}
+		
+	legend {font-family:sans-serif;
+		font-weight:bold;
+		margin-bottom:0px;}
+
+	label{text-align: right;
+		padding-right:10px;
+		margin-top:10px;
+		font-weight:bold;
+		padding-left:20px;}
+	</style>
+	<script>
+	function validateForm() {
+	if (document.forms[0].comments.value == " ")
+	{alert("May I know your feedback?");
+	return false;}	//end if
+	alert ("Thanks for your feedback!");
+	return true;	
+	}
+	</script>
+</head>
+<body>
+
+<div id="wrapper">
+		<header role="banner">
+				<h1>Contact Me</h1>
+		</header>
+	<div>
+		<nav class = "NavigationSection">
+        <ul class = "MainMenu">
+			<li><a href="index.php">Home</a> </li>
+			<li><a href="people.html">People</a>
+				<ul class = "SubMenu">
+                    <li><a href="parents.html">Parents</a></li>
+                    <li><a href="sister.html">Sister</a></li>
+					<li><a href="myself.html">Myself</a></li>
+                </ul>
+            </li>
+				
+			
+			<li><a href = "locations.html">Locations</a>
+                <ul class = "SubMenu">
+                    <li><a href="vancouver.html">Vancouver</a></li>
+                    <li><a href="deyang.html">Deyang</a></li>
+                </ul>
+            </li>
+			
+			<li><a href="hobbies.html">Hobbies</a>
+				<ul class = "SubMenu">
+                    <li><a href="cooking.html">Recipes</a></li>
+				</ul>
+           	</li>
+			
+			
+			<li><a href="albums.html">Albums</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		</nav>	
+	<br>
+	<br>
+	</div>
+	
+	<script>
+			var nowdate
+			nowdate=(document.lastModified)
+			document.write("<p>Now it is "+nowdate);
+	</script>
+<form style="padding-top:20px;" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return validateForm();">
+	<label for="1">Name:</label> <input type="text" name="name" id="1"> <br> <br>
+	<label for="2">E-mail:</label> <input type="text" name="email" id="2" ><br> <br>
+	
+	<fieldset>
+		<legend>Please Select Your Favorite Page(s):</legend>
+		<input type="checkbox" name="Home" id="1" value="yes">Home<br>
+		<input type="checkbox" name="People" id="2" value="yes">People<br>
+		<input type="checkbox" name="Parents" id="2" value="yes">Parents<br>
+		<input type="checkbox" name="Sister" id="2" value="yes">Sister<br>
+		<input type="checkbox" name="Myself" id="2" value="yes">Myself<br>
+		<input type="checkbox" name="Locations" id="3" value="yes">Locations<br>
+		<input type="checkbox" name="Van" id="3" value="yes">Vancouver<br>
+		<input type="checkbox" name="Deyang" id="3" value="yes">Deyang<br>
+		<input type="checkbox" name="Hobbies" id="4" value="yes">Hobbies<br>
+		<input type="checkbox" name="Recipes" id="4" value="yes">Recipes<br>
+		<input type="checkbox" name="Albums" id="5" value="yes">Albums<br>
+		<input type="checkbox" name="Contacts" id="6" value="yes">Contacts<br>
+	</fieldset>
+	
+		
+	<fieldset style="border:none">
+		<legend>Please suggest to improve my website?</legend> 
+		<textarea type="text" name="comments" id="6" cols="55" rows="10"> </textarea>
+		<br> 
+		<br>
+		<input type="submit">
+		<input type="reset">
+	</fieldset>
+</form>	
+	
+	
+	
+	
+	
+	
+	
+	<footer style="clear:both;text-align:center">
+				<small><i>Copyright &copy;2015 Jun W. BCITCOMP1850 <br>
+				<a href="mailto:maggiesherry@gmail.com">Contact Me</a> <br>
+				<a href="sitemap.html">Site Map</a>
+		</footer>
+</div>		
+	</body>
+	</html>

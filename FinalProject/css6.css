@@ -1,0 +1,91 @@
+
+
+body {background-color: #C9C2B8;
+	font-family:Arial;
+	margin-top:0;
+	}	
+
+header {color:white ;
+	background-color: #722F31;
+	height:300%;
+	/*line-height:200%;*/
+	font-family:Arial;
+	text-shadow:1px 1px 1px #ABF26D;
+	font-size:1.5em;
+	padding:10px 10px 10px 20px;
+	text-align:left;
+	}	
+
+#wrapper {width:80%;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:#F2EBDB
+		}	
+		
+#list {width:20%; 
+	margin-left:auto;
+		margin-right:auto;
+		font-size:1.5em;
+	line-height:150%;
+		display: block;
+   	padding:30px;}
+		
+
+
+/* --- BODY SECTION --- */
+body{
+margin: 0px;
+}
+
+/* --- NAVIGATION SECTION --- */
+.NavigationSection{
+position: relative;
+}
+/* --- MAIN MENU SECTION ---*/
+.MainMenu li{
+position: relative;
+list-style-type: none;
+font-size: 20px;
+display: inline-block;
+margin-right: 30px;
+color: white;
+
+}
+.MainMenu li a{
+padding: 5px;
+}
+.MainMenu a:link{
+text-decoration: none;
+color: white;
+}
+.MainMenu a:visited{
+text-decoration: none;
+color: white;
+}
+.MainMenu a:hover{
+background-color: #999999;
+border-radius: 5px;
+}
+.MainMenu li .SubMenu li{
+list-style-type: none;
+display: none;
+text-align:left;
+}
+
+
+.MainMenu li:hover .SubMenu li{
+display: block;
+position: relative;
+}
+
+.MainMenu li .SubMenu {
+    position:absolute;
+    top:25px;
+    left:-20px;
+    width: 200px;
+    padding-top:10px;
+	background-color:#303030;
+}
+
+		
+

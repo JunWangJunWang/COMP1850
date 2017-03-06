@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+</head>
+
+<body>
+<script>
+	id = prompt(“Enter your student ID”, “A00000000”);
+</script>
+<script>
+	name = prompt("Enter your name");
+	document.write("<h3 style='color:blue;’>Your name is " + name +"</h3>");
+	document.write("Hello to Javascript");
+	alert("Hi " + name + ", are you having fun?");
+</script>
+
+
+
+
+
+
+
+	<canvas id="myCanvas1" width="200" height="100" style="border:1px solid black;">
+		Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	
+	<script src="P2.js">
+	</script>
+	
+	
+	<canvas id="myCanvas2" width="200" height="100" style="border:0px solid black;">
+		Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	<script>
+		c=document.getElementById("myCanvas2");
+		ctx=c.getContext("2d");
+		ctx.fillStyle="#00FF00";
+		ctx.beginPath();
+		// arc(x, y, radius, startAngle in radians, endAngle in radians, anticlockwise)
+		ctx.arc(65, 65, 30, 0, Math.PI*2, true);
+		ctx.closePath();
+		ctx.fill();
+	</script>
+
+
+	
+
+	<script lang="javascript" type="text/javascript">
+		alert("Hi to Javascript!");
+	</script>
+	
+	<script lang="javascript" type="text/javascript" src="P1.js">
+	</script>
+	
+	<a href="#" onmouseover="alert(function1())">Click Me</a>
+</body>
+
+</html>

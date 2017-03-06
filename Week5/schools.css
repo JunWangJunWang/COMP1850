@@ -1,0 +1,28 @@
+	body {color: blue; 
+	background-color: white;
+	background-image:url(bk1.jpg);
+	width:1400px;
+	margin-left:auto;
+	margin-right:auto}
+
+h1 {color: #ffffff;
+	background-color: Orange;
+	line-height:200%;
+	font-family:Georgia,"Times New Roman", sans-serif;
+	text-shadow:3px 3px 5px #cccccc;
+	font-size:2.5em;
+	padding-right:1px;
+	text-align:center;
+	border-radius:25px
+	}
+	
+h2 	{background-color: green;
+	font-family: Georgia,"Times New Roman", sans-serif;}
+
+p 	{color: #191970; 
+	font-family: Arial, helvetica, sans-serif;
+	font-size:1.5em}
+	
+ul 	{color: navy; 
+	font-family: Arial, helvetica, sans-serif;
+	font-size:1.5em}

@@ -1,0 +1,42 @@
+P{background-color:white;
+	color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 110%;
+	overflow:auto}
+	
+.float{float:right;
+		margin-left:10px;}
+		
+.clearright {clear:right}
+
+.overflow {overflow:visible}
+
+div {overflow: auto;
+		align="center"}
+
+ul {list-style-type:none;
+	margin-left:250px;
+	}
+
+li {
+padding-bottom:0px;
+margin-top:20px;
+background-color:gray;
+text-align:left;
+font-style:italic;
+font-size:200%;
+font-family:georgia,serif;}
+
+a {text-decoration:none}
+
+p {
+	line-height: 40px;
+	font-size:1.5em;
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+	padding:30px;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form Test</title>
+<style>
+input, textarea {color:blue; background-color:#eaeaea;padding:5px; }
+	label{float: left;
+	width:100px;
+	clear:left;
+	text-align: right:
+	padding-reight:10px;
+	margin-top:10px;}
+
+</style>
+</head>
+
+<body  style="color:blue">
+<h1>Contact Us</h1>
+<form  name="contactForm" onsubmit=
+'if (document.contactForm.CustEmail.value == "" )
+alert("Please enter your email.") '>
+	<label for="1">First Name:</label>
+	<input type="text" name="firstName" id="1" accesskey="e"> <br> <br>
+	<label for="2">Last Name:</label>
+	<input type="text" name="LastName" id="2" ><br> <br>
+	<label for="3">E-mail:</label>
+	<input type="text" name="CustEmail" id="3" ><br> <br>
+	<label for="4">Comments:</label>
+	<textarea type="text" name="comments" id="4" cols="40" rows="5"> </textarea>
+	<br> <br>
+	<input type="submit" value="Contact">
+	<input type="reset">
+</form>
+</body>
+
+</html>

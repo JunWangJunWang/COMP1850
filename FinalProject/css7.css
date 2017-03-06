@@ -1,0 +1,135 @@
+/*this is for home page*/
+body {background-color:#E4DDD3;
+	font-family:Arial;
+	margin-top:0;
+	}
+
+header {color:white ;
+	background-color: gray;
+	height:200%;
+	/*line-height:200%;*/
+	font-family:Arial;
+	text-shadow:1px 1px 1px #ABF26D;
+	font-size:1em;
+	padding:10px 10px 10px 10px;
+	text-align:left;
+	}
+nav {font-family:Arial;
+	background-color:#303030;
+	height:100%;
+	display:block;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;	
+	}
+
+nav a {text-decoration:none;padding:20px; }
+
+nav a:link {color:white;}
+nav a:visited {color:#eaeaea;}
+nav a:hover{color:#red;
+	background-color:#999999}
+nav ul{list-style-type:none;margin:0px;}
+nav li{display:inline;} 
+/*a:link {color: #AAAA39;}
+a:visited {color: #00FF00;}
+a:hover {color: #261758;	}
+a:active {color: #0000FF;}*/
+	
+#container {width:80%;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:#DABA7B;
+		}	
+ul{list-style-type:none;margin:20px;}
+/*li{display: inline-block;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+	font-style:italic;
+	font-family:Georgia,serif;}		*/
+#mainpart li {display: inline-block;
+padding-bottom:10px;
+margin:10px;
+background-color:#303030;
+text-align:center;
+font-style:italic;
+font-family:Geogia,serif;}
+			
+/*#aside_col {margin-right;925px}*/
+p 	{
+	font-size:1.5em;
+	line-height:150%;
+	display: block;
+   	padding-left:30px;
+	padding-right:30px;
+}
+
+p:first-letter {
+		font-size: 150%;}
+		#mainpart{padding-top:20px; 
+		overflow:auto;
+		/*padding-left:20%;*/
+		margin-left:auto;
+		margin-right:auto;		
+		}
+	
+main {display:block;}
+
+
+/* --- BODY SECTION --- */
+body{
+margin: 0px;
+}
+
+/* --- NAVIGATION SECTION --- */
+.NavigationSection{
+position: relative;
+}
+/* --- MAIN MENU SECTION ---*/
+.MainMenu li{
+position: relative;
+list-style-type: none;
+font-size: 20px;
+display: inline-block;
+margin-right: 30px;
+color: white;
+
+}
+.MainMenu li a{
+padding: 5px;
+}
+.MainMenu a:link{
+text-decoration: none;
+color: white;
+}
+.MainMenu a:visited{
+text-decoration: none;
+color: white;
+}
+.MainMenu a:hover{
+background-color: #999999;
+border-radius: 5px;
+}
+.MainMenu li .SubMenu li{
+list-style-type: none;
+display: none;
+text-align:left;
+}
+
+
+.MainMenu li:hover .SubMenu li{
+display: block;
+position: relative;
+}
+
+.MainMenu li .SubMenu {
+    position:absolute;
+    top:25px;
+    left:-20px;
+    width: 200px;
+    padding-top:10px;
+	background-color:#303030;
+}

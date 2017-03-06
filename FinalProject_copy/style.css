@@ -1,0 +1,97 @@
+/*
+Name : style.css
+Description : contains sitewide css rules for every element on all the pages
+*/
+
+/* --- HEADER SECTION ---*/
+header{
+background-color: #197419;
+padding: 15px;
+}
+/* --- LOGO SECTION ---*/
+.logo{
+font-size: 40px;
+color: white;
+display: inline;
+margin-left: 30px;
+}
+/* --- SOCIAL MEDIA SECTION ---*/
+.SocialMediaLinks{
+display: inline;
+margin-left: 1100px;
+}
+.SocialMediaLinks li{
+list-style-type: none;
+display: inline-block;
+font-size: 40px;
+color: white;
+}
+.SocialMediaLinks li a{
+padding: 7px;
+}
+.SocialMediaLinks a:link{
+text-decoration: none;
+color: white;
+}
+.SocialMediaLinks a:visited{
+text-decoration: none;
+color: white;
+}
+.SocialMediaLinks a:hover{
+background-color: #28A428;
+border-radius: 5px;
+}
+
+/* --- BODY SECTION --- */
+body{
+margin: 0px;
+}
+
+/* --- NAVIGATION SECTION --- */
+.NavigationSection{
+position: relative;
+background-color: #197419;
+padding: 5px;
+}
+/* --- MAIN MENU SECTION ---*/
+.MainMenu li{
+position: relative;
+list-style-type: none;
+font-size: 20px;
+display: inline-block;
+margin-right: 30px;
+color: white;
+}
+.MainMenu li a{
+padding: 5px;
+}
+.MainMenu a:link{
+text-decoration: none;
+color: white;
+}
+.MainMenu a:visited{
+text-decoration: none;
+color: white;
+}
+.MainMenu a:hover{
+background-color: #28A428;
+border-radius: 5px;
+}
+.MainMenu li .SubMenu li{
+list-style-type: none;
+display: none;
+}
+
+
+.MainMenu li:hover .SubMenu li{
+display: block;
+position: relative;
+}
+
+.MainMenu li .SubMenu {
+    position:absolute;
+    top:25px;
+    left:-20px;
+    width: 200px;
+    padding-top:10px;
+}
